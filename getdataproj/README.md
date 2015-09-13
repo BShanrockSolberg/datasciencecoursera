@@ -12,3 +12,4 @@ The directory contains the following aside from this **README.md**:
  2. removes results not expressed in terms of "mean" or "standard deviation"
  3. averages results of all measurements by subject & activity
  4. writes the results to **tidytrial.txt**   
+ 
