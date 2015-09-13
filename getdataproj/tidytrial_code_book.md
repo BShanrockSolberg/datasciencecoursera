@@ -1,10 +1,12 @@
-## Code Book for tidytrial.csv
+## Code Book for tidytrial.txt
+
+tidytrial.txt is a space-delimited file, with variable names in the first row and observations in later rows. column names and character-based values are surrounded by quotes, numeric values are not.
 
 The context for this data can be found in the [Samsung Smartphone Human activity study](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
-The unique key for tidytrial.csv is the combination of the first two columns:
+The unique key for tidytrial.txt is the combination of the first two columns:
 * **subject**   - A number from 1-30, each representing a test subject
-* **activity**  - one of 6 activities the subject was doing while being measured  
+* **activity**  - one of 6 activities the subject was doing while being measured.  Factors are:   
    LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS   
 
 Each subject was measured between 281 and 409 times, and each measurement was organized into 561 variables, of this format: `[feature]-[function]-[XYZ]` where
