@@ -13,7 +13,7 @@ Each subject was measured between 281 and 409 times, and each measurement was or
 * [XYZ] = if the measurement is broken down into X axis, Y axis, Z axis, the variable is appended  
 Raw variable example: `fBodyBodyGyroJerkMag-std() or avg_tBodyAcc-mean()-Z`
 
-Only features with these two functions were included in the tidytrial data. (33 features 66 averaged columns in tidytrial.csv)
+Only features with these two functions were included in the tidytrial data. (33 features 66 averaged columns in tidytrial.txt)
 * mean(): Mean value
 * std(): Standard deviation
  
