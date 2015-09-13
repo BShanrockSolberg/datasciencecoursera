@@ -2,7 +2,7 @@
 
 **tidytrial.txt** is a space-delimited file, with variable names in the first row and observations in later rows. column names and character-based values are surrounded by quotes, numeric values are not.
 
-The context for this data can be found in the [Samsung Smartphone Human activity study](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
+The context for this data can be found in the [Samsung Smartphone Human activity study](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) using a zip file as the *[data source](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)*
 
 The unique key for **tidytrial.txt** is the combination of the first two columns:
 * **subject**   - A number from 1-30, each representing a test subject
@@ -24,7 +24,7 @@ tidytrial.csv averages the measurements of all similar activities.  So if subjec
 The variable names have been modified to reflect this, the format is `avg_[feature]_[function]_[X]`  
 Processed variable example: `avg_fBodyBodyGyroJerkMag_std or avg_tBodyAcc_mean_Z`
 
-The list of features and what they mean, pulled from the features_info.txt of the source data zip file is replicated here:
+The list of features and what they mean, is found in the **features_info.txt** file, located in the *data source* zip file.  For convenience this information is copied here:
 
 `The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz.`
 
