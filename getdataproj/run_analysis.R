@@ -141,9 +141,9 @@ sqlstr <- paste("SELECT subject, activity", sqlstr,
 
 # generate the tidy data frame and print it to a file
 tidytrial <- sqldf(sqlstr)
-# because there are no commas in data, generate a .csv file 
-write.table(tidytrial,file = "tidytrial.csv", 
-            row.names = FALSE, sep = ",")
+# because there are no commas in data, generate a .txt file 
+write.table(tidytrial,file = "tidytrial.txt", 
+            row.names = FALSE, sep = " ")
 
 
 
