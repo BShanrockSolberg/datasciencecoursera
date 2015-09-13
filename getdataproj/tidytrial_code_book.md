@@ -19,7 +19,7 @@ Only features with these two functions were included in the tidytrial data. (33 
 * mean(): Mean value
 * std(): Standard deviation
  
-tidytrial.csv averages the measurements of all similar activities.  So if subject #1 was measured SITTING 34 times, the average of those 34 measurements is captured in tidytrial.csv.
+**tidytrial.txt** averages the measurements of all similar activities.  So if subject #1 was measured SITTING 34 times, the average of those 34 measurements is captured in **tidytrial.txt**.
 
 The variable names have been modified to reflect this, the format is `avg_[feature]_[function]_[X]`  
 Processed variable example: `avg_fBodyBodyGyroJerkMag_std or avg_tBodyAcc_mean_Z`
